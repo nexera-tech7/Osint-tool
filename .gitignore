@@ -1,0 +1,63 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+*.whl
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Linting / type checking
+.mypy_cache/
+.ruff_cache/
+.pytype/
+
+# Logs
+*.log
+
+# Generated reports (keep the directory, ignore contents)
+reports/*.json
+reports/*.html
+reports/*.pdf
+reports/*.csv
+reports/*.txt
+!reports/.gitkeep
+
+# Cache
+.uscan_cache/
+
+# OS files
+*.DS_Store
+ehthumbs.db
+
+# Secrets (never commit)
+*.pem
+*.key
+.env.local
+.env.*.local
