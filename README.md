@@ -43,7 +43,7 @@ A fast, modular CLI application that checks public profile URLs across 60+ onlin
 2. Open **Command Prompt** or **PowerShell**:
 
 ```bash
-git clone https://github.com/yourusername/uscan.git
+git clone https://github.com/nexera-tech7/Osint-tool
 cd uscan
 pip install -e .
 ```
@@ -70,7 +70,7 @@ brew install python
 2. Clone and install:
 
 ```bash
-git clone https://github.com/yourusername/uscan.git
+git clone https://github.com/nexera-tech7/Osint-tool
 cd uscan
 pip3 install -e .
 ```
@@ -95,7 +95,7 @@ sudo apt install python3 python3-pip python3-venv git
 2. Clone and install:
 
 ```bash
-git clone https://github.com/yourusername/uscan.git
+git clone https://github.com/nexera-tech7/Osint-tool
 cd uscan
 pip3 install -e .
 ```
@@ -125,7 +125,7 @@ Then clone and install as above.
 ```bash
 pkg update
 pkg install python git
-git clone https://github.com/yourusername/uscan.git
+git clone https://github.com/nexera-tech7/Osint-tool
 cd uscan
 pip install -e .
 uscan --version
@@ -387,7 +387,7 @@ disabled = ["LinkedIn"]
 ### Setup
 
 ```bash
-git clone https://github.com/yourusername/uscan.git
+git clone https://github.com/nexera-tech7/Osint-tool
 cd uscan
 python3 -m venv .venv
 source .venv/bin/activate   # or .venv\Scripts\activate on Windows
